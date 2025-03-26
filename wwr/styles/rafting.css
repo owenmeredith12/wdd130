@@ -23,6 +23,9 @@ p{
 
 }
 
+footer .sociallinks a{
+    text-decoration: none;
+}
 
 section {
     display: flex;                    
