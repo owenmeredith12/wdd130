@@ -71,26 +71,23 @@
                     <input type="email" id="email" name="email" required>
                 
 
-                    <label for="purpose">Purpose of Message:</label>
-                    <div class="radio-group">
-                      <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" required>
-                      <label for="general_inquiry">General Inquiry</label><br>
+                    <label>Purpose of Message:</label>
+                    <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" required>
+                    <label for="general_inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
+                    <label for="reservation_question">Reservation Question</label>
+                    <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
+                    <label for="website_suggestion">Website Suggestion</label>
                 
-                      <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
-                      <label for="reservation_question">Reservation Question</label><br>
-                
-                      <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
-                      <label for="website_suggestion">Website Suggestion</label>
-                    </div>
-                
+
                     <label for="message">Your Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 
-                    <div class="checkbox-group">
-                      <input type="checkbox" id="newsletter" name="newsletter">
-                      <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                    </div>
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 
+
                     <button type="submit">Submit</button>
                   </form>
             </section>
