@@ -151,7 +151,7 @@ section img {
 .hero h1{
     position: absolute;
     top: 0;
-    right: 45%;
+    right: 40%;
 
 }
 
@@ -215,3 +215,73 @@ footer{
     padding-top: 45px;
 }
 
+.email-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.email-form form{
+    justify-content: center;
+
+}
+
+.email-form input[type=text], [type=email]{
+    border-radius: 1px;
+}
+
+.email-form input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .call{
+    padding-top: 50px;
+  }
+
+  .call a{
+    font-family: delius;
+    text-decoration: none;
+  }
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.info figure{
+    padding-left: 250px;
+
+}
+
+.info figure img{
+    width: 70%;
+
+}
+
+.trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trips figure{
+    padding-left: 100px;
+}
+
+.trips figure img{
+    width:80%;
+}
+
+.trips figure figcaption{
+    width: 80%;
+}
+
+.options{
+    justify-items:center;
+    width: 100%;
+}
